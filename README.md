@@ -24,6 +24,32 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
+## Managing Content
+
+### Adding Team Members
+1. **Images**: Place team member images in the `public/team/` directory.
+   - Example: `public/team/member-name.jpg`
+2. **Data**: Update `data/team.ts` to include the new member or update existing ones.
+   - Add the `image` field referencing the file in public (e.g., `/team/member-name.jpg`).
+   - Add social links (LinkedIn, GitHub, Phone).
+   - For Designers, you can also add a `portfolio` link.
+
+### Example Data Entry
+```typescript
+{
+  id: "1",
+  name: "John Doe",
+  role: "Lead",
+  category: "Event Team Leads",
+  image: "/team/john-doe.jpg", // Image at public/team/john-doe.jpg
+  socials: {
+    linkedin: "https://linkedin.com/in/johndoe",
+    github: "https://github.com/johndoe",
+    phone: "tel:+1234567890"
+  }
+}
+```
+
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
