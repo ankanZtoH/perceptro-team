@@ -19,7 +19,7 @@ export default function Footer() {
                     </div>
 
                     <div className="text-sm text-gray-500">
-                        &copy; {new Date().getFullYear()} Perceptron Team. All rights reserved.
+                        &copy; 2026 Perceptron Team. All rights reserved.
                     </div>
                 </div>
             </div>
