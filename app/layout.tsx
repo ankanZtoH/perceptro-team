@@ -3,7 +3,7 @@ import { Inter, Orbitron } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import TechBackground from "./components/TechBackground";
-import Scanline from "./components/Scanline";
+// import Scanline from "./components/Scanline";
 import ScrollProgress from "./components/ScrollProgress";
 import "./globals.css";
 
@@ -35,7 +35,7 @@ export default function RootLayout({
         <Navbar />
         <ScrollProgress />
         <TechBackground />
-        <Scanline />
+        {/* <Scanline /> */}
         <main className="flex-grow pt-16">
           {children}
         </main>

@@ -14,19 +14,12 @@ export default function TechBackground() {
 
         let particles: Particle[] = [];
         let animationFrameId: number;
-        let mouse = { x: -1000, y: -1000 };
 
         const handleResize = () => {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
             initParticles();
         };
-
-        const handleMouseMove = (e: MouseEvent) => {
-            mouse.x = e.clientX;
-            mouse.y = e.clientY;
-        };
-
         class Particle {
             x: number;
             y: number;
@@ -51,20 +44,6 @@ export default function TechBackground() {
                 // Bounce off walls
                 if (this.x < 0 || this.x > canvas!.width) this.vx *= -1;
                 if (this.y < 0 || this.y > canvas!.height) this.vy *= -1;
-
-                // Mouse interaction
-                const dx = mouse.x - this.x;
-                const dy = mouse.y - this.y;
-                const distance = Math.sqrt(dx * dx + dy * dy);
-
-                if (distance < 150) {
-                    const angle = Math.atan2(dy, dx);
-                    const force = (150 - distance) / 150;
-                    const push = force * 2;
-
-                    this.vx -= Math.cos(angle) * push * 0.05;
-                    this.vy -= Math.sin(angle) * push * 0.05;
-                }
             }
 
             draw() {
@@ -73,8 +52,8 @@ export default function TechBackground() {
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                 ctx.fillStyle = this.color;
                 ctx.fill();
-                ctx.globalAlpha = 0.5;
-                ctx.shadowBlur = 10;
+                ctx.globalAlpha = 1.0;
+                ctx.shadowBlur = 15;
                 ctx.shadowColor = this.color;
             }
         }
@@ -110,20 +89,20 @@ export default function TechBackground() {
                         ctx.stroke();
                     }
                 }
+
+
             });
 
             animationFrameId = requestAnimationFrame(animate);
         };
 
         window.addEventListener("resize", handleResize);
-        window.addEventListener("mousemove", handleMouseMove);
 
         handleResize();
         animate();
 
         return () => {
             window.removeEventListener("resize", handleResize);
-            window.removeEventListener("mousemove", handleMouseMove);
             cancelAnimationFrame(animationFrameId);
         };
     }, []);
@@ -131,7 +110,7 @@ export default function TechBackground() {
     return (
         <canvas
             ref={canvasRef}
-            className="fixed inset-0 z-[-1] bg-[#050505] opacity-80 pointer-events-none"
+            className="fixed inset-0 z-[-1] bg-[#050505] pointer-events-none"
         />
     );
 }

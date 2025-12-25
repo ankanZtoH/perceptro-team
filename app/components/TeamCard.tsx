@@ -1,7 +1,7 @@
 "use client";
 
 import { TeamMember } from "@/data/team";
-import { Github, Linkedin, Phone, Briefcase } from "lucide-react";
+import { Github, Linkedin, Phone, Briefcase, Instagram } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
@@ -13,6 +13,16 @@ export default function TeamCard({ member }: { member: TeamMember }) {
 
     const rotateX = useSpring(useTransform(y, [-0.5, 0.5], [15, -15]), { stiffness: 150, damping: 20 });
     const rotateY = useSpring(useTransform(x, [-0.5, 0.5], [-15, 15]), { stiffness: 150, damping: 20 });
+
+    function getGoogleDriveDirectLink(url: string) {
+        if (url.includes("drive.google.com") && url.includes("/file/d/")) {
+            const id = url.split("/file/d/")[1].split("/")[0];
+            return `https://drive.google.com/uc?export=view&id=${id}`;
+        }
+        return url;
+    }
+
+    const imageSrc = member.image ? getGoogleDriveDirectLink(member.image) : null;
 
     function handleMouseMove(e: MouseEvent<HTMLDivElement>) {
         const rect = e.currentTarget.getBoundingClientRect();
@@ -65,9 +75,9 @@ export default function TeamCard({ member }: { member: TeamMember }) {
             <div style={{ transform: "translateZ(50px)" }} className="relative z-10 flex flex-col items-center h-full">
                 {/* Profile Image */}
                 <div className="w-28 h-28 rounded-full mb-4 overflow-hidden border-2 border-white/10 group-hover:border-neon-green transition-colors duration-300 relative shadow-[0_0_20px_rgba(0,0,0,0.5)] group-hover:shadow-[0_0_30px_var(--neon-green)]">
-                    {member.image ? (
+                    {imageSrc ? (
                         <Image
-                            src={member.image}
+                            src={imageSrc}
                             alt={member.name}
                             fill
                             className="object-cover"
@@ -91,17 +101,20 @@ export default function TeamCard({ member }: { member: TeamMember }) {
 
                 {/* Socials - Always Visible */}
                 <div className="mt-auto flex space-x-4 bg-black/40 p-2 rounded-full border border-white/10 backdrop-blur-sm shadow-lg">
-                    {member.socials.linkedin && (
+                    {member.socials.linkedin && member.socials.linkedin !== "#" && (
                         <SocialIcon href={member.socials.linkedin} icon={<Linkedin size={16} />} label="LinkedIn" />
                     )}
-                    {member.socials.github && (
+                    {member.socials.github && member.socials.github !== "#" && (
                         <SocialIcon href={member.socials.github} icon={<Github size={16} />} label="GitHub" />
                     )}
-                    {member.socials.phone && (
+                    {member.socials.instagram && member.socials.instagram !== "#" && (
+                        <SocialIcon href={member.socials.instagram} icon={<Instagram size={16} />} label="Instagram" />
+                    )}
+                    {member.socials.phone && member.socials.phone !== "#" && !member.socials.phone.endsWith("0000000000") && (
                         <SocialIcon href={member.socials.phone} icon={<Phone size={16} />} label="Call" />
                     )}
 
-                    {member.category === "Tech & Design Team" && member.socials.portfolio && (
+                    {member.socials.portfolio && member.socials.portfolio !== "#" && (
                         <SocialIcon href={member.socials.portfolio} icon={<Briefcase size={16} />} label="Portfolio" />
                     )}
                 </div>

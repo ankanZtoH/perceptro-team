@@ -1,0 +1,197 @@
+[
+    {
+        "id": "1",
+        "name": "Niladri Ghosh",
+        "role": "Secretary",
+        "category": "Core Team",
+        "image": "https://drive.google.com/file/d/1SRfitee6zcehwzuWhgqWORZLPEzDKPk4/view?usp=drivesdk",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/ghoshniladri",
+            "github": "https://github.com/niladrighosh03",
+            "phone": "tel:+919093372699",
+            "portfolio": "https://sites.google.com/view/niladrighosh"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Swarnendu Pan",
+        "role": "Joint Secretary",
+        "category": "Core Team",
+        "image": "https://avatars.githubusercontent.com/u/177155829?s=400&u=5f681207d875385f8a8ef4542b571069aa093426&v=4",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/swarnendu-pan007/",
+            "github": "#",
+            "phone": "tel:+917890537439",
+            "portfolio": "#"
+        }
+    },
+    {
+        "id": "3",
+        "name": "Soham Bhattacharya",
+        "role": "Convenor",
+        "category": "Core Team",
+        "image": "https://avatars.githubusercontent.com/soham-b-github",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/bhattacharyasoham026",
+            "github": "https://github.com/soham-b-github",
+            "phone": "tel:+918017751019",
+            "portfolio": "#"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Radheshyam Routh",
+        "role": "Media Head",
+        "category": "Core Team",
+        "image": "https://avatars.githubusercontent.com/IamRouth",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/radheshyam-routh/",
+            "github": "https://github.com/IamRouth",
+            "phone": "tel:+918392089070",
+            "portfolio": "https://radheshyam-routh.vercel.app/",
+            "instagram": "https://www.instagram.com/radheshyam_routh/"
+        }
+    },
+    {
+        "id": "19",
+        "name": "Avirup Das",
+        "role": "Event Head",
+        "category": "Core Team",
+        "image": "https://avatars.githubusercontent.com/Avirup221",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/avirup221/",
+            "github": "https://github.com/Avirup221",
+            "phone": "tel:+919641420946",
+            "portfolio": "https://avirup221.github.io/",
+            "instagram": "https://www.instagram.com/radheshyam_routh/"
+        }
+    },
+    {
+        "id": "5",
+        "name": "KANAN PANDIT",
+        "role": "The Final Bid Lead",
+        "category": "Event Team",
+        "image": "https://avatars.githubusercontent.com/kananpandit02",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/kananpandit02/",
+            "github": "https://github.com/kananpandit02",
+            "phone": "tel:+917384661310",
+            "portfolio": "https://kananpanditportfolio.netlify.app/"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Debarshi Chakraborty",
+        "role": "Codecraft Lead",
+        "category": "Event Team",
+        "image": "https://drive.google.com/file/d/1Qgba7C6HToG6bU3EJbOjn94oPnugjM4v/view?usp=drive_link",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/debarshi29",
+            "github": "https://github.com/debarshi29",
+            "phone": "tel:+919038564470",
+            "portfolio": "#"
+        }
+    },
+    {
+        "id": "7",
+        "name": "Sayak Chowdhury",
+        "role": "Funda Mania Lead",
+        "category": "Event Team",
+        "image": "https://drive.google.com/file/d/1MbQoEYjHoDgNIYKiqE6DN7OPSG3f5no0/view?usp=drivesdk",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/sayak-chowdhury-b30587233",
+            "github": "#",
+            "phone": "tel:+919875652573",
+            "portfolio": "https://sites.google.com/view/sayakchowdhury/home?authuser=0",
+            "instagram": "https://www.instagram.com/lord_of_the_strings69?igsh=b3drdjJxYXJyeGxq"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Darpan Bhattacharya",
+        "role": "The Turing Show Lead",
+        "category": "Event Team",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/darpan-bhattacharya/",
+            "github": "https://github.com/darpan-b",
+            "phone": "tel:+919123375600",
+            "portfolio": "#"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Soham Bodhak",
+        "role": "Dhristikon Lead",
+        "category": "Event Team",
+        "socials": {
+            "linkedin": "https://linkedin.com/in/soham-bodhak",
+            "github": "https://github.com/SohamBodhak",
+            "phone": "tel:+917439240524",
+            "portfolio": "#"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Partha Mete",
+        "role": "Kickstream Nexus Lead",
+        "category": "Event Team",
+        "image": "https://avatars.githubusercontent.com/parthaMete",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/parthamete/",
+            "github": "https://github.com/ParthaMete",
+            "phone": "tel:+917439767809",
+            "portfolio": "https://parthamete.github.io/portfolio/",
+            "instagram": "https://www.instagram.com/partha_030/"
+        }
+    },
+    {
+        "id": "15",
+        "name": "Sayan Das",
+        "role": "Web Developer",
+        "category": "Tech & Design Team",
+        "socials": {
+            "linkedin": "#",
+            "github": "#",
+            "phone": "tel:+910000000000",
+            "portfolio": "#"
+        }
+    },
+    {
+        "id": "16",
+        "name": "Ankan Bera",
+        "role": "Designer",
+        "category": "Tech & Design Team",
+        "image": "https://avatars.githubusercontent.com/ankanZtoH",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/ankanztoh/",
+            "github": "https://github.com/ankanZtoH",
+            "phone": "tel:+917810937299",
+            "portfolio": "https://ankanztoh.github.io/My-portfolio-/",
+            "instagram": "https://www.instagram.com/saanu.x_/"
+        }
+    },
+    {
+        "id": "17",
+        "name": "Rajarshi Saha",
+        "role": "Designer",
+        "category": "Tech & Design Team",
+        "socials": {
+            "linkedin": "#",
+            "github": "#",
+            "phone": "tel:+910000000000",
+            "portfolio": "#"
+        }
+    },
+    {
+        "id": "18",
+        "name": "Niladri Ghosh",
+        "role": "Videographer",
+        "category": "Tech & Design Team",
+        "socials": {
+            "linkedin": "#",
+            "github": "#",
+            "phone": "tel:+910000000000",
+            "portfolio": "#"
+        }
+    }
+]
