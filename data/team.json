@@ -145,6 +145,76 @@
         }
     },
     {
+        "id": "20",
+        "name": "Arnab Singha",
+        "role": "Asimov Circuit Lead",
+        "category": "Event Team",
+        "image": "https://avatars.githubusercontent.com/ArnabSingha200228",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/arnabsingha200228",
+            "github": "https://github.com/ArnabSingha200228",
+            "phone": "tel:+918159942638",
+            "portfolio": "https://arnabsingha200228.github.io/",
+            "instagram": "https://www.instagram.com/arnab__s"
+        }
+    },
+    {
+        "id": "21",
+        "name": "Arnab Banerjee",
+        "role": "Riddle Run Lead",
+        "category": "Event Team",
+        "image": "https://avatars.githubusercontent.com/the-blue-panther",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/arnab-banerjee-1740662a4",
+            "github": "https://github.com/the-blue-panther",
+            "phone": "tel:+919123733834",
+            "portfolio": "#",
+            "instagram": "https://www.instagram.com/arnab_512/"
+        }
+    },
+    {
+        "id": "22",
+        "name": "Raihan Uddin",
+        "role": "Da Vinci Code Lead",
+        "category": "Event Team",
+        "image": "https://avatars.githubusercontent.com/Raihan2511",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/itsraihanuddin/",
+            "github": "https://github.com/Raihan2511",
+            "phone": "tel:+917601971615",
+            "portfolio": "https://myportfolio-mu-vert-32.vercel.app/",
+            "instagram": "#"
+        }
+    },
+    {
+        "id": "24",
+        "name": "Surya Ruidas",
+        "role": "Reelverse Lead",
+        "category": "Event Team",
+        "image": "https://avatars.githubusercontent.com/Surya-1109",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/surya-ruidas-4844932b9/",
+            "github": "https://github.com/Surya-1109",
+            "phone": "tel:+918436467623",
+            "portfolio": "https://sites.google.com/view/surya-portfolio-1109/home?authuser=0",
+            "instagram": "#"
+        }
+    },
+    {
+        "id": "25",
+        "name": "Ayan Banerjee ",
+        "role": "Mobile Showdown Lead",
+        "category": "Event Team",
+        "image": "https://avatars.githubusercontent.com/AyanBanerjee29",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/ayan-banerjee-b8234b321",
+            "github": "https://github.com/AyanBanerjee29",
+            "phone": "tel:+918420761486",
+            "portfolio": "https://sites.google.com/view/surya-portfolio-1109/home?authuser=0",
+            "instagram": "#"
+        }
+    },
+    {
         "id": "15",
         "name": "Sayan Das",
         "role": "Web Developer",
