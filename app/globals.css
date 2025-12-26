@@ -180,3 +180,11 @@ body {
 .animate-pulse-glow {
   animation: pulse-glow 3s infinite;
 }
+
+.clip-path-tech {
+  clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0 10%);
+}
+
+.animate-scan-slow {
+  animation: scan 4s linear infinite;
+}
