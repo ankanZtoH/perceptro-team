@@ -90,11 +90,13 @@ export default function TeamCard({ member }: { member: TeamMember }) {
                 </div>
 
                 {/* Info */}
-                <div className="text-center">
-                    <h3 className="text-xl font-bold text-white font-orbitron tracking-widest group-hover:text-neon-green transition-colors duration-300">
-                        {member.name}
-                    </h3>
-                    <p className="text-sm text-neon-purple font-medium mt-1 font-inter tracking-[0.2em] uppercase">
+                <div className="text-center w-full">
+                    <div className="min-h-[3.5rem] flex items-center justify-center">
+                        <h3 className="text-xl font-bold text-white font-orbitron tracking-widest group-hover:text-neon-green transition-colors duration-300">
+                            {member.name}
+                        </h3>
+                    </div>
+                    <p className="text-sm text-neon-purple font-extrabold mt-1 font-inter tracking-[0.2em] uppercase drop-shadow-[0_0_5px_rgba(189,0,255,0.8)]">
                         {member.role}
                     </p>
                 </div>
