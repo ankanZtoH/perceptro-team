@@ -20,6 +20,9 @@ const orbitron = Orbitron({
 export const metadata: Metadata = {
   title: "Perceptron 2k26 | Team",
   description: "Meet the team behind Perceptron 2k26",
+  icons: {
+    icon: '/favicon.ico',
+  }
 };
 
 export default function RootLayout({

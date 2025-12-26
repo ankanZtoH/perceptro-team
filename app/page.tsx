@@ -31,19 +31,15 @@ export default function Home() {
     <main className="min-h-screen relative overflow-x-hidden text-white">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center p-4 md:p-24 relative z-10 w-full">
-        <div className="z-10 text-center space-y-8 relative">
+        <div className="z-10 text-center space-y-2 md:space-y-8 relative">
           <div className="relative inline-block">
-            <GlitchText
-              text="PERCEPTRON"
-              as="h1"
-              className="text-4xl sm:text-6xl md:text-9xl font-black tracking-tighter font-orbitron max-w-[100vw] break-words"
-            />
-            <div className="absolute -inset-4 border border-neon-green/30 blur-sm -z-10 rounded-lg animate-pulse" />
+            <img src="/logo-full.svg" alt="Error" />
           </div>
 
-          <p className="text-xl md:text-2xl text-neon-purple tracking-[0.5em] font-medium font-inter uppercase">
-            2K26 TEAM
-          </p>
+          <GlitchText
+            text="2K26 TEAM"
+            className="text-xl md:text-2xl font-medium font-inter uppercase tracking-[0.5em]"
+          />
 
 
         </div>

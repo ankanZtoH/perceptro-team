@@ -1,7 +1,7 @@
 "use client";
 
 import { TeamMember } from "@/data/team";
-import { Github, Linkedin, Phone, Briefcase, Instagram } from "lucide-react";
+import { Github, Linkedin, Phone, Briefcase, Instagram, Mail } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
@@ -116,6 +116,9 @@ export default function TeamCard({ member }: { member: TeamMember }) {
 
                     {member.socials.portfolio && member.socials.portfolio !== "#" && (
                         <SocialIcon href={member.socials.portfolio} icon={<Briefcase size={16} />} label="Portfolio" />
+                    )}
+                    {member.socials.email && member.socials.email !== "#" && (
+                        <SocialIcon href={`mailto:${member.socials.email}`} icon={<Mail size={16} />} label="Email" />
                     )}
                 </div>
             </div>

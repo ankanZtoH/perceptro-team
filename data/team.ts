@@ -13,6 +13,7 @@ export type TeamMember = {
         web?: string;
         phone?: string;
         portfolio?: string;
+        email?: string;
     };
 };
 

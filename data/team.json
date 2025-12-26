@@ -1,5 +1,18 @@
 [
     {
+        "id": "0",
+        "name": "Br. Bhaswarachaitanya (Tamal Maharaj)",
+        "role": "President",
+        "category": "Core Team",
+        "image": "/team/Br_Tamal.png",
+        "socials": {
+            "linkedin": "#",
+            "github": "#",
+            "phone": "#",
+            "portfolio": "#"
+        }
+    },
+    {
         "id": "1",
         "name": "Niladri Ghosh",
         "role": "Secretary",
@@ -63,7 +76,7 @@
             "github": "https://github.com/Avirup221",
             "phone": "tel:+919641420946",
             "portfolio": "https://avirup221.github.io/",
-            "instagram": "https://www.instagram.com/radheshyam_routh/"
+            "instagram": "#"
         }
     },
     {
@@ -210,14 +223,28 @@
             "linkedin": "https://www.linkedin.com/in/ayan-banerjee-b8234b321",
             "github": "https://github.com/AyanBanerjee29",
             "phone": "tel:+918420761486",
-            "portfolio": "https://sites.google.com/view/surya-portfolio-1109/home?authuser=0",
+            "portfolio": "#",
             "instagram": "#"
+        }
+    },
+    {
+        "id": "26",
+        "name": "Sudam Kumar Paul",
+        "role": "The Cascade Challenge Lead",
+        "category": "Event Team",
+        "image": "https://avatars.githubusercontent.com/Sudam23",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/kumarsudam23",
+            "github": "https://github.com/Sudam23",
+            "phone": "tel:+919933407223",
+            "portfolio": "https://sudam23.github.io/My_Portfolio/",
+            "instagram": "https://www.instagram.com/_sudamofficial_?igsh=MWozeHQ4ZWM5bmRt"
         }
     },
     {
         "id": "15",
         "name": "Sayan Das",
-        "role": "Web Developer",
+        "role": "Tech Head",
         "category": "Tech & Design Team",
         "socials": {
             "linkedin": "#",
@@ -229,7 +256,7 @@
     {
         "id": "16",
         "name": "Ankan Bera",
-        "role": "Designer",
+        "role": "Developers",
         "category": "Tech & Design Team",
         "image": "https://avatars.githubusercontent.com/ankanZtoH",
         "socials": {
@@ -244,18 +271,6 @@
         "id": "17",
         "name": "Rajarshi Saha",
         "role": "Designer",
-        "category": "Tech & Design Team",
-        "socials": {
-            "linkedin": "#",
-            "github": "#",
-            "phone": "tel:+910000000000",
-            "portfolio": "#"
-        }
-    },
-    {
-        "id": "18",
-        "name": "Niladri Ghosh",
-        "role": "Videographer",
         "category": "Tech & Design Team",
         "socials": {
             "linkedin": "#",
