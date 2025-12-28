@@ -1,7 +1,7 @@
 [
     {
         "id": "0",
-        "name": "Br. Bhaswarachaitanya (Tamal Maharaj)",
+        "name": "Br. Tamal",
         "role": "President",
         "category": "Core Team",
         "image": "/team/Br_Tamal.png",
@@ -17,7 +17,7 @@
         "name": "Niladri Ghosh",
         "role": "Secretary",
         "category": "Core Team",
-        "image": "https://drive.google.com/file/d/1SRfitee6zcehwzuWhgqWORZLPEzDKPk4/view?usp=drivesdk",
+        "image": "/team/NiladriDa.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/ghoshniladri",
             "github": "https://github.com/niladrighosh03",
@@ -30,7 +30,7 @@
         "name": "Swarnendu Pan",
         "role": "Joint Secretary",
         "category": "Core Team",
-        "image": "https://avatars.githubusercontent.com/u/177155829?s=400&u=5f681207d875385f8a8ef4542b571069aa093426&v=4",
+        "image": "/team/SwarnenduPan.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/swarnendu-pan007/",
             "github": "#",
@@ -43,7 +43,7 @@
         "name": "Soham Bhattacharya",
         "role": "Convenor",
         "category": "Core Team",
-        "image": "https://avatars.githubusercontent.com/soham-b-github",
+        "image": "/team/SohamDa.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/bhattacharyasoham026",
             "github": "https://github.com/soham-b-github",
@@ -56,7 +56,7 @@
         "name": "Radheshyam Routh",
         "role": "Media Head",
         "category": "Core Team",
-        "image": "https://avatars.githubusercontent.com/IamRouth",
+        "image": "/team/RadheshyamRouth.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/radheshyam-routh/",
             "github": "https://github.com/IamRouth",
@@ -70,7 +70,7 @@
         "name": "Avirup Das",
         "role": "Event Head",
         "category": "Core Team",
-        "image": "https://avatars.githubusercontent.com/Avirup221",
+        "image": "/team/AvirupDas.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/avirup221/",
             "github": "https://github.com/Avirup221",
@@ -84,7 +84,7 @@
         "name": "KANAN PANDIT",
         "role": "The Final Bid Lead",
         "category": "Event Team",
-        "image": "https://avatars.githubusercontent.com/kananpandit02",
+        "image": "/team/KananDa1.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/kananpandit02/",
             "github": "https://github.com/kananpandit02",
@@ -97,7 +97,7 @@
         "name": "Debarshi Chakraborty",
         "role": "Codecraft Lead",
         "category": "Event Team",
-        "image": "https://drive.google.com/file/d/1Qgba7C6HToG6bU3EJbOjn94oPnugjM4v/view?usp=drive_link",
+        "image": "/team/DebarshiChakraborty.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/debarshi29",
             "github": "https://github.com/debarshi29",
@@ -110,7 +110,7 @@
         "name": "Sayak Chowdhury",
         "role": "Funda Mania Lead",
         "category": "Event Team",
-        "image": "https://drive.google.com/file/d/1MbQoEYjHoDgNIYKiqE6DN7OPSG3f5no0/view?usp=drivesdk",
+        "image": "/team/SayakChowdhury1.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/sayak-chowdhury-b30587233",
             "github": "#",
@@ -124,6 +124,7 @@
         "name": "Darpan Bhattacharya",
         "role": "The Turing Show Lead",
         "category": "Event Team",
+        "image": "/team/DarpanDa.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/darpan-bhattacharya/",
             "github": "https://github.com/darpan-b",
@@ -136,6 +137,7 @@
         "name": "Soham Bodhak",
         "role": "Dhristikon Lead",
         "category": "Event Team",
+        "image": "/team/SohamBodhak.png",
         "socials": {
             "linkedin": "https://linkedin.com/in/soham-bodhak",
             "github": "https://github.com/SohamBodhak",
@@ -148,7 +150,7 @@
         "name": "Partha Mete",
         "role": "Kickstream Nexus Lead",
         "category": "Event Team",
-        "image": "https://avatars.githubusercontent.com/parthaMete",
+        "image": "/team/ParthaMete.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/parthamete/",
             "github": "https://github.com/ParthaMete",
@@ -162,7 +164,7 @@
         "name": "Arnab Singha",
         "role": "Asimov Circuit Lead",
         "category": "Event Team",
-        "image": "https://avatars.githubusercontent.com/ArnabSingha200228",
+        "image": "/team/ArnabSingha.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/arnabsingha200228",
             "github": "https://github.com/ArnabSingha200228",
@@ -176,7 +178,7 @@
         "name": "Arnab Banerjee",
         "role": "Riddle Run Lead",
         "category": "Event Team",
-        "image": "https://avatars.githubusercontent.com/the-blue-panther",
+        "image": "/team/ArnabBanerjee.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/arnab-banerjee-1740662a4",
             "github": "https://github.com/the-blue-panther",
@@ -190,7 +192,7 @@
         "name": "Raihan Uddin",
         "role": "Da Vinci Code Lead",
         "category": "Event Team",
-        "image": "https://avatars.githubusercontent.com/Raihan2511",
+        "image": "/team/RaihanDa.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/itsraihanuddin/",
             "github": "https://github.com/Raihan2511",
@@ -218,7 +220,7 @@
         "name": "Ayan Banerjee ",
         "role": "Mobile Showdown Lead",
         "category": "Event Team",
-        "image": "https://avatars.githubusercontent.com/AyanBanerjee29",
+        "image": "/team/AyanBanerjee.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/ayan-banerjee-b8234b321",
             "github": "https://github.com/AyanBanerjee29",
@@ -232,7 +234,7 @@
         "name": "Sudam Kumar Paul",
         "role": "The Cascade Challenge Lead",
         "category": "Event Team",
-        "image": "https://avatars.githubusercontent.com/Sudam23",
+        "image": "/team/SudamDa.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/kumarsudam23",
             "github": "https://github.com/Sudam23",
@@ -260,7 +262,7 @@
         "name": "Rudrajit Dey",
         "role": "The Cascade Challenge Lead",
         "category": "Event Team",
-        "image": "https://avatars.githubusercontent.com/u/52630236?s=400&u=ec6c249355b2887d053317435ad93daebec9ff26&v=4",
+        "image": "/team/RudrajitDey.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/rudrajit-dey-5718181b9/",
             "github": "#",
@@ -274,7 +276,7 @@
         "name": "Sayan Das",
         "role": "Tech Head",
         "category": "Tech & Design Team",
-        "image": "/team/sayanDa.jpg",
+        "image": "/team/SayanDa.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/das-sayan/",
             "github": "https://github.com/SayanDasDev",
@@ -288,7 +290,7 @@
         "name": "Ankan Bera",
         "role": "Developers",
         "category": "Tech & Design Team",
-        "image": "https://avatars.githubusercontent.com/ankanZtoH",
+        "image": "/team/AnkanImg.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/ankanztoh/",
             "github": "https://github.com/ankanZtoH",

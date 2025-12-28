@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Orbitron } from "next/font/google";
+import { Inter, Orbitron, Russo_One } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import TechBackground from "./components/TechBackground";
@@ -14,6 +14,12 @@ const inter = Inter({
 
 const orbitron = Orbitron({
   variable: "--font-orbitron",
+  subsets: ["latin"],
+});
+
+const russo = Russo_One({
+  weight: "400",
+  variable: "--font-russo",
   subsets: ["latin"],
 });
 
@@ -33,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${orbitron.variable} antialiased bg-background text-foreground bg-grid min-h-screen flex flex-col`}
+        className={`${inter.variable} ${orbitron.variable} ${russo.variable} antialiased bg-background text-foreground bg-grid min-h-screen flex flex-col`}
       >
         <Navbar />
         <ScrollProgress />

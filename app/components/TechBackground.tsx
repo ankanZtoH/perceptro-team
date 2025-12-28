@@ -34,7 +34,7 @@ export default function TechBackground() {
                 this.vx = (Math.random() - 0.5) * 0.5;
                 this.vy = (Math.random() - 0.5) * 0.5;
                 this.size = Math.random() * 2 + 1;
-                this.color = Math.random() > 0.5 ? "#00ff41" : "#bd00ff";
+                this.color = Math.random() > 0.5 ? "#FF8800" : "#bd00ff";
             }
 
             update() {
@@ -84,7 +84,7 @@ export default function TechBackground() {
                         ctx.beginPath();
                         ctx.moveTo(particle.x, particle.y);
                         ctx.lineTo(particles[j].x, particles[j].y);
-                        ctx.strokeStyle = `rgba(0, 255, 65, ${1 - distance / 150})`;
+                        ctx.strokeStyle = `rgba(255, 136, 0, ${1 - distance / 150})`;
                         ctx.lineWidth = 0.5;
                         ctx.stroke();
                     }

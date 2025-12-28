@@ -34,7 +34,7 @@ function SocialLink({ href, icon, label }: { href: string; icon: React.ReactNode
             href={href}
             target={isExternal ? "_blank" : undefined}
             rel={isExternal ? "noopener noreferrer" : undefined}
-            className="text-gray-400 hover:text-neon-green transition-colors hover:scale-110 transform duration-200"
+            className="text-gray-400 hover:text-neon-orange transition-colors hover:scale-110 transform duration-200"
             aria-label={label}
         >
             {icon}

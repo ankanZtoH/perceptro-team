@@ -60,7 +60,7 @@ export default function TeamPage() {
                                     <h2 className="text-2xl md:text-3xl font-bold text-center text-white font-orbitron relative z-10 uppercase tracking-widest">
                                         {category}
                                     </h2>
-                                    <div className="absolute top-1/2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-neon-green/30 to-transparent -z-0" />
+                                    <div className="absolute top-1/2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-neon-orange/30 to-transparent -z-0" />
                                 </div>
                             </ScrollReveal>
 

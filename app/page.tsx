@@ -45,7 +45,7 @@ export default function Home() {
         </div>
 
         {/* Glow effects */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neon-green/10 rounded-full blur-[120px] -z-10 pointer-events-none" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neon-orange/10 rounded-full blur-[120px] -z-10 pointer-events-none" />
       </section>
 
       {/* Team Sections */}
@@ -63,7 +63,7 @@ export default function Home() {
                   <h2 className="text-3xl md:text-5xl font-bold text-center text-white font-orbitron relative z-10 uppercase tracking-widest">
                     {category}
                   </h2>
-                  <div className="absolute top-1/2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-neon-green/30 to-transparent -z-0" />
+                  <div className="absolute top-1/2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-neon-orange/30 to-transparent -z-0" />
                 </div>
               </ScrollReveal>
 

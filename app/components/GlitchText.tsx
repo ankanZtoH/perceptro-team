@@ -10,7 +10,7 @@ export default function GlitchText({ text, className, as: Component = "h1" }: Gl
     return (
         <div className={cn("glitch-wrapper", className)}>
             <Component
-                className="glitch relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-neon-green to-white"
+                className="glitch relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-neon-orange to-white"
                 data-text={text}
             >
                 {text}
