@@ -242,15 +242,45 @@
         }
     },
     {
+        "id": "27",
+        "name": "Subhradip Bhattacharyya ",
+        "role": "Treasurer",
+        "category": "Core Team",
+        "image": "https://avatars.githubusercontent.com/Subhradip-2003",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/subhradip2003",
+            "github": "#",
+            "phone": "tel:+917318801594",
+            "portfolio": "#",
+            "instagram": "#"
+        }
+    },
+    {
+        "id": "28",
+        "name": "Rudrajit Dey",
+        "role": "The Cascade Challenge Lead",
+        "category": "Event Team",
+        "image": "https://avatars.githubusercontent.com/u/52630236?s=400&u=ec6c249355b2887d053317435ad93daebec9ff26&v=4",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/rudrajit-dey-5718181b9/",
+            "github": "#",
+            "phone": "tel:+919330925080",
+            "portfolio": "#",
+            "instagram": "#"
+        }
+    },
+    {
         "id": "15",
         "name": "Sayan Das",
         "role": "Tech Head",
         "category": "Tech & Design Team",
+        "image": "/team/sayanDa.jpg",
         "socials": {
-            "linkedin": "#",
-            "github": "#",
-            "phone": "tel:+910000000000",
-            "portfolio": "#"
+            "linkedin": "https://www.linkedin.com/in/das-sayan/",
+            "github": "https://github.com/SayanDasDev",
+            "phone": "#",
+            "portfolio": "https://www.sayandas.co.in/",
+            "email": "mesayan19@gmail.com"
         }
     },
     {
@@ -265,18 +295,6 @@
             "phone": "tel:+917810937299",
             "portfolio": "https://ankanztoh.github.io/My-portfolio-/",
             "instagram": "https://www.instagram.com/saanu.x_/"
-        }
-    },
-    {
-        "id": "17",
-        "name": "Rajarshi Saha",
-        "role": "Designer",
-        "category": "Tech & Design Team",
-        "socials": {
-            "linkedin": "#",
-            "github": "#",
-            "phone": "tel:+910000000000",
-            "portfolio": "#"
         }
     }
 ]
