@@ -43,7 +43,7 @@
         "name": "Soham Bhattacharya",
         "role": "Convenor",
         "category": "Core Team",
-        "image": "/team/SohamDa.png",
+        "image": "/team/SohamBhattacharya.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/bhattacharyasoham026",
             "github": "https://github.com/soham-b-github",
@@ -110,7 +110,7 @@
         "name": "Sayak Chowdhury",
         "role": "Funda Mania Lead",
         "category": "Event Team",
-        "image": "/team/SayakChowdhury1.png",
+        "image": "/team/SayakChowdhury.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/sayak-chowdhury-b30587233",
             "github": "#",
@@ -206,7 +206,7 @@
         "name": "Surya Ruidas",
         "role": "Reelverse Lead",
         "category": "Event Team",
-        "image": "https://avatars.githubusercontent.com/Surya-1109",
+        "image": "/team/SuryaRuidas-removebg-preview.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/surya-ruidas-4844932b9/",
             "github": "https://github.com/Surya-1109",
@@ -248,7 +248,7 @@
         "name": "Subhradip Bhattacharyya ",
         "role": "Treasurer",
         "category": "Core Team",
-        "image": "https://avatars.githubusercontent.com/Subhradip-2003",
+        "image": "/team/SubhradipBhattacharyya.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/subhradip2003",
             "github": "#",
@@ -262,7 +262,7 @@
         "name": "Rudrajit Dey",
         "role": "The Cascade Challenge Lead",
         "category": "Event Team",
-        "image": "/team/RudrajitDey.png",
+        "image": "/team/RudrajitDey1.png",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/rudrajit-dey-5718181b9/",
             "github": "#",
@@ -297,6 +297,20 @@
             "phone": "tel:+917810937299",
             "portfolio": "https://ankanztoh.github.io/My-portfolio-/",
             "instagram": "https://www.instagram.com/saanu.x_/"
+        }
+    },
+    {
+        "id": "46",
+        "name": "Srijan Sarkar",
+        "role": "Developers",
+        "category": "Tech & Design Team",
+        "image": "/team/SrijanSarkar.png",
+        "socials": {
+            "linkedin": "#",
+            "github": "#",
+            "phone": "#",
+            "portfolio": "#",
+            "instagram": "#"
         }
     }
 ]
