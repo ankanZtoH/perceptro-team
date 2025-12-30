@@ -312,5 +312,33 @@
             "portfolio": "#",
             "instagram": "https://www.instagram.com/srijan_here5?igsh=MWNlcnplNnU1ZWltcg=="
         }
+    },
+    {
+        "id": "47",
+        "name": "Aniruddha Datta",
+        "role": "Designer",
+        "category": "Tech & Design Team",
+        "image": "/team/AniruddhaDatta.png",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/aniruddha-datta-478408320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "github": "#",
+            "phone": "#",
+            "portfolio": "#",
+            "instagram": "https://www.instagram.com/aniruddha_0102?igsh=MWdxaG03dDNqY2h6dA=="
+        }
+    },
+    {
+        "id": "48",
+        "name": "Niladri Banerjee",
+        "role": "Designer",
+        "category": "Tech & Design Team",
+        "image": "/team/NiladriBanerjee.png",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/niladri-banerjee-9a0963371/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "github": "#",
+            "phone": "#",
+            "portfolio": "#",
+            "instagram": "https://www.instagram.com/iamnils2023"
+        }
     }
 ]

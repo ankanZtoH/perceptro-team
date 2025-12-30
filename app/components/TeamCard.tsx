@@ -108,6 +108,9 @@ export default function TeamCard({ member }: { member: TeamMember }) {
                         {member.socials.instagram && member.socials.instagram !== "#" && (
                             <SocialButton href={member.socials.instagram} icon={<Instagram size={18} />} />
                         )}
+                        {member.socials.phone && member.socials.phone !== "#" && (
+                            <SocialButton href={member.socials.phone} icon={<Phone size={18} />} />
+                        )}
                         {member.socials.portfolio && member.socials.portfolio !== "#" && (
                             <SocialButton href={member.socials.portfolio} icon={<Briefcase size={18} />} />
                         )}
@@ -137,9 +140,16 @@ function SocialButton({ href, icon }: { href: string; icon: React.ReactNode }) {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-9 h-9 flex items-center justify-center rounded-md bg-white/5 border border-white/10 text-gray-400 hover:text-black hover:bg-neon-orange hover:border-neon-orange hover:shadow-[0_0_15px_rgba(255,136,0,0.6)] transition-all duration-300 group/btn"
+            className="relative w-10 h-10 flex items-center justify-center bg-white/5 border border-white/10 text-gray-300 transition-all duration-300 group/btn overflow-hidden"
+            style={{
+                clipPath: "polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px)"
+            }}
         >
-            <span className="transform group-hover/btn:scale-110 transition-transform duration-200">
+            {/* Hover overlay */}
+            <div className="absolute inset-0 bg-neon-orange opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300" />
+
+            {/* Icon */}
+            <span className="relative z-10 transform group-hover/btn:scale-110 group-hover/btn:text-black transition-transform duration-200">
                 {icon}
             </span>
         </a>
