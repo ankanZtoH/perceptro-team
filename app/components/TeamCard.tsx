@@ -2,7 +2,6 @@
 
 import { TeamMember } from "@/data/team";
 import { Github, Linkedin, Phone, Briefcase, Instagram, Mail } from "lucide-react";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { cn } from "@/app/lib/utils";
 
@@ -67,15 +66,16 @@ export default function TeamCard({ member }: { member: TeamMember }) {
                 </div>
 
                 {/* 3. Main Character Image */}
-                <div className="absolute inset-x-4 top-24 bottom-20 md:bottom-24 z-10 overflow-hidden rounded-sm">
+                <div className="absolute inset-x-4 top-[72px] bottom-[60px] md:top-24 md:bottom-24 z-10 overflow-hidden rounded-sm">
                     {imageSrc ? (
                         <div className="relative w-full h-full">
-                            <Image
+                            <img
                                 src={imageSrc}
                                 alt={member.name}
-                                fill
-                                className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                                loading="lazy"
                             />
+
                             {/* Gradient Overlay at bottom of image for text readability */}
                             <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#0a0f18] to-transparent" />
                         </div>
