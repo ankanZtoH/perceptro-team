@@ -23,7 +23,7 @@ export default function TeamCard({ member }: { member: TeamMember }) {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-50px" }}
-            className="w-full relative group h-[450px]"
+            className="w-full relative group h-[380px] md:h-[450px]"
         >
             {/* Cyber Frame Container */}
             <div className="relative w-full h-full">
@@ -60,14 +60,14 @@ export default function TeamCard({ member }: { member: TeamMember }) {
                     )}>
                         {member.name}
                     </h3>
-                    <p className="text-[11px] font-bold text-neon-orange/80 font-mono tracking-[0.2em] uppercase">
+                    <p className="text-[10px] md:text-[11px] font-bold text-neon-orange/80 font-mono tracking-[0.2em] uppercase">
                         {member.role}
                     </p>
                     <div className="mt-2 w-12 h-[2px] bg-neon-orange/40 mx-auto" />
                 </div>
 
                 {/* 3. Main Character Image */}
-                <div className="absolute inset-x-4 top-24 bottom-24 z-10 overflow-hidden rounded-sm">
+                <div className="absolute inset-x-4 top-24 bottom-20 md:bottom-24 z-10 overflow-hidden rounded-sm">
                     {imageSrc ? (
                         <div className="relative w-full h-full">
                             <Image
@@ -90,7 +90,7 @@ export default function TeamCard({ member }: { member: TeamMember }) {
 
                 {/* 4. Bottom Social Bar */}
                 <div
-                    className="absolute bottom-0 left-0 w-full h-[80px] z-20 flex items-center justify-center"
+                    className="absolute bottom-0 left-0 w-full h-[60px] md:h-[80px] z-20 flex items-center justify-center"
                     style={{
                         clipPath: "polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px))"
                     }}
@@ -98,7 +98,7 @@ export default function TeamCard({ member }: { member: TeamMember }) {
                     {/* Background for social bar */}
                     <div className="absolute inset-0 bg-[#0a0f18]/80 backdrop-blur-sm border-t border-white/5" />
 
-                    <div className="relative flex gap-3 z-30 pt-2">
+                    <div className="relative flex gap-2 md:gap-3 z-30 pt-1 md:pt-2">
                         {member.socials.linkedin && member.socials.linkedin !== "#" && (
                             <SocialButton href={member.socials.linkedin} icon={<Linkedin size={18} />} />
                         )}
@@ -140,16 +140,19 @@ function SocialButton({ href, icon }: { href: string; icon: React.ReactNode }) {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="relative w-10 h-10 flex items-center justify-center bg-white/5 border border-white/10 text-gray-300 transition-all duration-300 group/btn overflow-hidden"
+            className="group/btn relative w-9 h-9 md:w-10 md:h-10 flex items-center justify-center bg-[#0a0f18] border border-white/10 text-gray-300 transition-all duration-300 hover:border-neon-orange hover:shadow-[0_0_20px_rgba(255,136,0,0.5)] hover:-translate-y-1 overflow-hidden"
             style={{
-                clipPath: "polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px)"
+                clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)"
             }}
         >
-            {/* Hover overlay */}
-            <div className="absolute inset-0 bg-neon-orange opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300" />
+            {/* Background gradient on hover */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-neon-orange/0 via-neon-orange/10 to-neon-orange/0 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300" />
+
+            {/* Shine effect */}
+            <div className="absolute inset-0 translate-x-[-100%] group-hover/btn:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/10 to-transparent z-10" />
 
             {/* Icon */}
-            <span className="relative z-10 transform group-hover/btn:scale-110 group-hover/btn:text-black transition-transform duration-200">
+            <span className="relative z-20 transform group-hover/btn:scale-110 group-hover/btn:text-neon-orange transition-all duration-300 drop-shadow-[0_0_5px_rgba(255,136,0,0.5)]">
                 {icon}
             </span>
         </a>

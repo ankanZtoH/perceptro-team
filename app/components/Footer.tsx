@@ -4,14 +4,14 @@ import { Facebook, Linkedin, Instagram, Mail } from "lucide-react";
 export default function Footer() {
     return (
         <footer className="border-t border-white/10 bg-background/40 backdrop-blur-sm mt-auto">
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto py-8 md:py-4 px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
                     <div className="space-y-2">
-                        <img src="/logo-full.svg" alt="" className="w-50" />
-                        <p className="text-sm text-gray-400">Innovating the future, one node at a time.</p>
+                        <img src="/logo-full.svg" alt="" className="w-50 ml-4" />
+                        {/* <p className="text-sm text-gray-400">Innovating the future, one node at a time.</p> */}
                     </div>
 
-                    <div className="flex space-x-6">
+                    <div className="flex space-x-6 md:hidden">
                         <SocialLink href="https://www.facebook.com/perceptron.rkmveri" icon={<Facebook size={20} />} label="Facebook" />
                         <SocialLink href="https://www.linkedin.com/company/perceptron-rkmveri/" icon={<Linkedin size={20} />} label="LinkedIn" />
                         <SocialLink href="https://www.instagram.com/perceptron.rkmveri" icon={<Instagram size={20} />} label="Instagram" />
@@ -19,7 +19,7 @@ export default function Footer() {
                     </div>
 
                     <div className="text-sm text-gray-500">
-                        &copy; 2026 Perceptron Team. All rights reserved.
+                        &copy; 2026 Perceptron Team.
                     </div>
                 </div>
             </div>
