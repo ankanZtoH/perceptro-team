@@ -3,8 +3,10 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export",
 
-  // basePath: "/teams",
-  // assetPrefix: "/~perceptron/teams",
+  distDir: "dist",
+
+  basePath: "/~perceptron/teams",
+  assetPrefix: "/~perceptron/teams",
 
   // trailingSlash: true,
 

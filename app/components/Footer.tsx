@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto py-8 md:py-4 px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
                     <div className="space-y-2">
-                        <img src="/logo-full.svg" alt="" className="w-50 ml-4" />
+                        <img src="assets/logo-full.svg" alt="" className="w-50 ml-4" />
                         {/* <p className="text-sm text-gray-400">Innovating the future, one node at a time.</p> */}
                     </div>
 

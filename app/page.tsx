@@ -33,7 +33,7 @@ export default function Home() {
       <section className="min-h-screen flex flex-col items-center justify-center p-4 md:p-24 relative z-10 w-full">
         <div className="z-10 text-center space-y-2 md:space-y-8 relative">
           <div className="relative inline-block">
-            <img src="/logo-full.svg" alt="Error" />
+            <img src="/assets/logo-full.svg" alt="Error" />
           </div>
 
           <GlitchText
